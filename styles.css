@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(135deg, #0038FF, #E48F41);
+    height: 100vh;    /* para que vire uma imagem só */ 
+}
+
+#fotoMaria{
+    background-image: url("assets/maria.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center; 
+    height: 255px;
+    width: 255px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 33px 0 px 27px 0px; 
+    margin-top: 15px;
+}
+
+.buttonSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 255px;
+    height: 60px;
+    background-color: #ffffff20;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 27px;
+    cursor: pointer;    
+    
+    p{
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        font-size: 1.125rem;
+        font-size: 1.125rem;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+#contentParent{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
